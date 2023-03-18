@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+
+  <main>
+    <section class="results">
+      <div class="results-header">Your Result</div>
+      <div class="results-wrapperScore">
+        <div class="results-score">76</div>
+        <div class="results-max">of 100</div>
+      </div>
+      <div class="results-feedback">
+        <h1 class="results-feedbackTitle">Great</h1>
+        <span class="results-feedbackText">You scored higher than 65% of the people who have taken these tests.</span>
+      </div>
+    </section>
+
+    <section class="summary">
+      <div class="summary-header">Summary</div>
+
+      <ul class="summary-states">
+
+        <li class="state">
+          <svg class="state-icon">
+            <use xlink:href="./assets/images/icon-reaction.svg#icon"></use>
+          </svg>
+          <p class="state-name">Reaction</p>
+          <div class="state-wrapperScore">
+            <span class="state-realScore">80</span>
+            <span class="state-maxScore"> / 100</span>
+          </div>
+        </li>
+        <li class="state">
+          <svg class="state-icon">
+            <use xlink:href="./assets/images/icon-memory.svg#icon"></use>
+          </svg>
+          <p class="state-name">Memory</p>
+          <div class="state-wrapperScore">
+            <span class="state-realScore">92</span>
+            <span class="state-maxScore"> / 100</span>
+          </div>
+        </li>
+        <li class="state">
+          <svg class="state-icon">
+            <use xlink:href="./assets/images/icon-verbal.svg#icon"></use>
+          </svg>
+          <p class="state-name">Verbal</p>
+          <div class="state-wrapperScore">
+            <span class="state-realScore">61</span>
+            <span class="state-maxScore"> / 100</span>
+          </div>
+        </li>
+        <li class="state">
+          <svg class="state-icon">
+            <use xlink:href="./assets/images/icon-visual.svg#icon"></use>
+          </svg>
+          <p class="state-name">Visual</p>
+          <div class="state-wrapperScore">
+            <span class="state-realScore">72</span>
+            <span class="state-maxScore"> / 100</span>
+          </div>
+        </li>
+        
+      </ul>
+    
+      <button class="summary-continue">
+        Continue
+      </button>
+
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/fr4nkd3v" target="_blank">Fr4nkD3v</a>.
+  </div>
+</body>
+</html>
